@@ -1,0 +1,1007 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    background-color: #f4e7d4;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.justify-content-center{
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+.logo{
+    width: 15rem;
+    margin-right: 20.375rem;
+}
+
+.logo img{
+    width: 80%;
+}
+
+.foto-logo{
+    width: 15.625rem;
+    height: 15.5rem;
+    margin-right: 2.375rem;
+}
+
+.nav-bar{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 50px;
+    text-align: center;
+    gap: 1.125rem;
+    background-color: #f4e7d4;
+    }
+
+.nav-bar li a{
+    text-decoration: none;
+    font-size: 1.3125rem;
+    color:#000000;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+}
+
+nav ul li a:hover{
+    color: aliceblue;
+}
+
+
+body{
+    background-color: #f4e7d4;
+}
+
+
+.grids{
+    width: 100%;
+    height: 31.25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 4.3125rem; 
+    grid-template-areas:
+    ". section-1 section-1 ."
+    "section-2 section-2 section-2 section-2"
+    "section-3 section-3 section-3 section-3"
+    "section-4 section-4 section-4 section-4"
+    "section-5 section-5 section-5 section-5"
+    ". section-6 section-6 ."
+    "section-7 section-7 section-7 section-7"
+    "section-8 section-8 section-8 section-8"
+
+}
+
+.section-1{
+    background-color: #f4e7d4;
+    grid-area: section-1;
+    height: 12.5rem;
+    align-content: center;
+    margin-left: 3.9375rem;
+    margin-top: .3125rem;
+}
+.section-2{
+    background-color: #f4e7d4;
+    grid-area: section-2;
+    height: 18.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1.5rem;
+    padding-top: 1.25rem;
+
+}
+.section-3{
+    background-color: #f4e7d4;
+    grid-area: section-3;
+    height: 18.75rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1.5125rem;
+    padding-top: .625rem;
+}
+.section-4{
+    background-color: #f4e7d4;
+    grid-area: section-4;
+    height: 18.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1.5125rem;
+    padding-top: .625rem;
+}
+.section-5{
+    background-color: #f4e7d4;
+    grid-area: section-5;
+    height: 18.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: .625rem;
+    gap: 1.5125rem;
+}
+
+.section-6{
+    background-color: #f4e7d4;
+    grid-area: section-6;
+    height: 10.5rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.section-7{
+    grid-area: section-7;
+    background-color: #f4e7d4;
+    height: 18.5rem;
+    display: flex;
+    gap: 1.9125rem;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2.625rem;
+}
+
+.section-8{
+    grid-area: section-8;
+    background-color: #050505;
+    height: 4.5rem;
+    display: flex;
+    padding-top: 3.875rem;
+}
+
+
+/*-------------------------- CLASS ------------------------------------------- */
+
+
+.texto-disfruta{
+    font-size: 1.3rem;
+    font-family: 'Young Serif', serif;
+    margin-left: .9375rem;
+}
+
+.texto-preparate{
+    font-size: 2.25rem;
+    font-family: 'Young Serif', serif;
+    margin-left: .9375rem;
+}
+
+.card{
+    width: 13.25rem;
+    height: 20.625rem;
+    background-color: #f4e7d4;
+    border: none;
+}
+
+.card img{
+    width: 100%;
+    height: 12.5rem;
+}
+
+.texto-planta{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.texto-precio{
+    text-align: center;
+    font-weight: bold;
+    padding-top: .3125rem;
+}
+
+.boton-compras{
+    margin-left: .9375rem;
+    margin-top: .5375rem;
+    background-color: black;
+    border-radius: .9375rem;
+    margin-right: .6rem;
+}
+
+.boton-compras a{
+    color: azure;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+}
+
+.card-2{
+    width: 13.25rem;
+    height: 20.625rem;
+    background-color: #f4e7d4;
+    border: none;
+}
+
+.card-2 img{
+    width: 100%;
+    height: 12.5rem;
+    }
+
+
+.class-compras{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.texto-recibi{
+    padding-top: 2.125rem;
+    font-size: 1.025rem;
+}
+
+.texto-contacto{
+    padding-top: 1.3125rem;
+}
+
+.boton-masproductos{
+    margin-left: 15.125rem;
+    margin-top: 3rem;
+    
+}
+
+.boton-masproductos a{
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #000000;
+    font-family: 'Cinzel', serif;
+    font-size: 1.2375rem;
+    border-radius: .9375rem;
+}
+
+.div-productos{
+    border-radius: .9375rem;
+    border: none;
+}
+
+.boton-macetas{
+    margin-left: 1.9rem;
+    background-color: black;
+    border-radius: .9375rem;
+    width: 9.375rem;
+
+}
+
+.div-boton{
+    padding-top: .625rem;
+}
+
+.boton-macetas a{ 
+    color: azure;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+}
+
+.whats-app{
+    align-self: flex-end;
+}
+
+.whats-app img{
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-left: 1.5625rem;
+    margin-top: 3.9375rem;
+}
+
+.insta-gram{
+    align-self: flex-end;
+}
+
+.insta-gram img{
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-left: 1.5625rem;
+    margin-top: 3.9375rem;
+}
+
+.face-book{
+    align-self: flex-end;
+}
+
+.face-book img{
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-left: 1.5625rem;
+    margin-top: 3.9375rem;
+}
+
+.asesoramiento-1{
+    display: flex;
+    align-self: flex-end;
+    padding-top: 3.8rem;
+}
+
+.asesoramiento-1 p{
+    color: rgb(248, 247, 247);
+    font-size: .5rem;
+    padding-top: 10px;
+    margin-left: 3.125rem;
+    margin-bottom: .625rem;
+}
+
+.terminos-vivero{
+    align-self: flex-end;
+    margin-left: 10.375rem;
+}
+
+.terminos-vivero p{
+    color: rgb(255, 255, 255);
+    font-size: .625rem;
+}
+
+
+/* --------------------------- SECCION PRODUCTOS ------------------------------------ */
+
+.grids-2{
+    width: 100%;
+    height: 1.875rem;
+    display: grid;
+    row-gap: 2.5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 3.5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "section-uno section-dos section-dos section-dos"
+    "section-uno section-dos section-dos section-dos"
+    "section-uno section-tres section-tres section-tres"
+    "section-uno section-tres section-tres section-tres"
+    "section-uno section-cuatro section-cuatro section-cuatro"
+    "section-uno section-cuatro section-cuatro section-cuatro"
+    "section-uno section-cinco section-cinco section-cinco"
+    "section-uno section-cinco section-cinco section-cinco"
+    "section-seis section-seis section-seis section-seis"
+}
+
+h1{
+    font-size: 2.85rem;
+    margin-left: 1.5625rem;
+}
+
+.section-uno{
+    grid-area: section-uno;
+    background-color: #f4e7d4;
+    row-gap: 1.5625rem;
+    height: 100%;
+    padding-top: 1.5625rem;
+    
+}
+
+.nave-barra{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 50px;
+    text-align: center;
+    gap: 1.125rem;
+    background-color: #f4e7d4;
+    }
+
+.nave-comand{
+    padding-top: .9375rem;
+}
+
+.nave-barra li a{
+    text-decoration: none;
+    font-size: 1.3125rem;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+
+}
+
+.nav-productos{
+    padding: .9375rem;
+}
+
+.nav-productos li{
+    list-style: none;
+    padding-top: .9375rem;
+    margin-left: 1.5625rem;
+}
+
+.nav-productos li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+.section-dos{
+    grid-area: section-dos;
+    background-color: #f4e7d4;
+    height: 19.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.400rem;
+}
+
+.section-tres{
+    background-color: #f4e7d4;
+    grid-area: section-tres;
+    height: 19.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.4000rem;
+}
+
+.section-cuatro{
+    background-color: #f4e7d4;
+    grid-area: section-cuatro;
+    height: 19.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.4000rem;
+}
+
+.section-cinco{
+    grid-area: section-cinco;
+    background-color: #f4e7d4;
+    height: 19.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.4000rem;
+}
+
+
+.section-seis{
+    background-color: #0a0a0a;
+    grid-area: section-seis;
+    height: 4.5rem;
+    display: flex;
+}
+
+.cate-gorias{
+    font-family: 'Abril Fatface', cursive;
+    color: #000000;
+}
+
+.card-tres{
+    align-content: center;
+}
+
+.card-tres img{
+    width: 100%;
+    height: 14.5rem;
+    padding-top: .625rem;
+}
+
+.boton-comprasdos{
+    margin-left: 1.8rem;
+    margin-top: .5375rem;
+    background-color: black;
+    font-family: 'Cinzel', serif;
+}
+
+.boton-comprasdos a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.texto-asesoramiento{
+    text-align: center;
+    font-size: .8rem;
+    margin-left: 4rem;
+    margin-bottom: 1.25rem;
+
+}
+
+.whats-app1{
+    align-self: flex-end;
+}
+
+.whats-app1 img{
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-left: 1.5625rem;
+    margin-top: 3.9375rem;
+}
+
+.insta-gram1{
+    align-self: flex-end;
+    
+}
+
+.insta-gram1 a img{
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-left: 1.5625rem;
+    margin-top: 4rem;
+}
+
+.face-book1{
+    align-self: flex-end;
+}
+
+.face-book1 img{ 
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-left: 1.5625rem;
+    margin-top: 3.9375rem;
+    margin-left: 1.25rem;
+}
+
+
+/* -------------------------------- NOSOTROS ---------------------------------------- */
+
+.header-nos{
+    justify-content: center;
+    background-color: #000000;
+    height: 1.80rem;
+}
+
+.header-nos a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.conteiner-uno{
+    background-color: #f4e7d4;
+    display: flex;
+    justify-content: center;
+    gap: .9375rem;
+}
+
+.conteiner-uno p a{
+    color: #000000;
+    font-size: 1.625rem;
+    text-decoration: none;
+}
+
+.my-button {
+	background-color:#d1c5b2;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: 'Cinzel', serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #8a8782;
+}
+.my-button:hover {
+	background-color:#f4e7d4;
+}
+.my-button:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.foto-nav{
+    text-align: center;
+    align-items: flex-start;
+
+}
+
+.foto-nav img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.conteiner-tres{
+    padding-top: 1.875rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4.375rem
+}
+
+.div-tres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubi-uno{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.ubi-dos{
+    margin-left: 6.9375rem;
+}
+
+.boton-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.9375rem;
+    padding-bottom: 1.5625rem;
+
+}
+
+.boton-1 button{
+    background-color:#d1c5b2 ;
+    border-radius: 1.75rem ;
+    border: 1px solid #ffffff;
+    cursor:pointer;
+    color:#0c0c0c;
+    font-family: 'Cinzel', serif;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #8a8782;
+}
+
+.boton-1 button:hover {
+	background-color:#444341;
+}
+
+.boton-1 button a:hover {
+	color: #ffffff;
+}
+
+.boton-1 button:active {
+	position:relative;
+	top:1px;
+}
+
+.boton-1 button a{
+    text-decoration: none;
+    color: #050505;
+}
+
+.container-footer{
+    background-color: #000000;
+    height: 4.25rem;
+    display: flex;
+    padding-top: 3.875rem;
+}
+
+.asesoramiento-2{
+    display: flex;
+    align-self: flex-end;
+}
+
+.asesoramiento-2 p{
+    color: rgb(250, 250, 250);
+    font-size: .5rem;
+    padding-top: 10px;
+    margin-left: 3.125rem;
+    margin-bottom: .625rem;
+}
+
+.terminos-vivero1{
+    align-self: flex-end;
+    margin-left: 10.375rem;
+}
+
+.terminos-vivero1 p{
+    color: rgb(255, 250, 250);
+    font-size: .625rem;
+}
+
+
+/* --------------------------------- SECCION TIPS ---------------------------- */
+
+.header-conteiner{
+    background-color: #f4e7d4;
+    display: block;
+    height: 15rem;
+}
+
+.logo-1{
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    background-color: #d1c5b2;
+    margin-left: 40.375rem;
+    
+}
+
+.logo-1 img{
+    height: 15.125rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-tips{
+
+}
+
+.nav-bar-1{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 1px;
+    text-align: center;
+    gap: 1.125rem;
+    background-color: #f4e7d4;
+    }
+
+.nav-bar-1 li a{
+    text-decoration: none;
+    font-size: 1.3125rem;
+    color:#000000;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+}
+
+nav ul li a:hover{
+    color: aliceblue;
+}
+
+.grid-3{
+    width: 100%;
+    height: 40.875rem;
+    display: grid;
+    row-gap: 0.5rem;
+    padding-top: 5.875rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "section-u section-u section-u section-u"
+    "section-u section-u section-u section-u"
+    "section-d section-d section-d section-d"
+    "section-d section-d section-d section-d"
+    "section-d section-d section-d section-d"
+    "section-t section-t section-t  section-t"
+    "section-t section-t section-t section-t"
+    "section-ct section-ct section-ct section-ct"
+    "section-ct section-ct section-ct section-ct"
+}
+
+.section-u{
+    grid-area: section-u;
+    background-color: #f4e7d4;
+    height: 18.25rem;
+    width: 100%;
+}
+.section-d{
+    grid-area: section-d;
+    background-color: #f4e7d4; 
+    height: 18.25rem;
+}
+.section-t{
+    grid-area: section-t;
+    background-color: #f4e7d4;
+    height: 28.25rem; 
+}
+.section-ct{
+    grid-area: section-ct;
+    background-color: #f4e7d4;
+}
+
+.texto-tips{
+    display: block;
+    justify-content: center;
+    margin-top: 3.5rem;
+    margin-left: 1.875rem;
+    font-family: 'Roboto Condensed'
+}
+
+/* ---------------------------------- CONTACTO ----------------------------- */
+
+.body-myh{
+    background-color: #e06363;
+
+}
+
+.form-uno{
+    display: flex;
+    padding-top: 1.5625rem;
+    justify-content: center;
+
+}
+
+.form-dos{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0);
+    width: 43.125rem;
+    gap: 1.0rem;
+    padding-top: 20px;
+    border: #f4e7d4;
+}
+
+.content-nav{
+    background-color: #000000;
+}
+
+.section-footer{
+    display: flex;
+    align-self: flex-end;
+    margin-top: 37.3rem;
+    background-color: #000000;
+    height: 5.5rem;
+}
+
+.asesoramiento-footer{
+    display: flex;
+    align-self: flex-end;
+}
+
+.asesoramiento-footer p{
+    color: rgb(255, 252, 252);
+    font-size: .5rem;
+    padding-top: 10px;
+    margin-left: 3.125rem;
+    margin-bottom: .625rem;
+}
+
+.terminos-footer{
+    align-self: flex-end;
+    margin-left: 10.375rem;
+}
+
+.terminos-footer p{
+    color: rgb(255, 255, 255);
+    font-size: .625rem;
+}
+
+.boton-myh{
+    padding-top: .9375rem;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton-init{
+    width: 6.25rem;
+    height: 3.125rem;
+    border-radius: 2.9375rem;
+    border: #ffffff;
+    background-color: #ffffff42;
+}
+
+.boton-init a{
+    font-size: 1.5rem;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ------------------------------- MEDIAS ------------------------------------------------------------------------------------------------------------------ */
+
+@media (max-width: 1024px){
+    .section-footer{
+        display: flex;
+        align-self: flex-end;
+        margin-top: 16.375rem;
+        background-color: #000000;
+        height: 2.5rem;
+    }
+    
+    .asesoramiento-footer p{
+        font-size: .2375rem;
+    }
+    .terminos-footer p{
+        font-size: 0.3375rem;
+    }
+}
+
+
+@media (max-width: 768px){
+    .body-myh{
+        height: auto;
+    }
+    .header-nos{
+        justify-content: center;
+        background-color: #000000;
+        height: 1.80rem;
+        width: 50rem;
+    }
+    
+    .header-nos a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    .asesoramiento-footer p{
+        font-size: .2375rem;
+    }
+    .terminos-footer p{
+        font-size: 0.3375rem;
+        margin-right: 1.25rem;
+        align-self: flex-end;
+    }
+    .form-uno{
+        margin-left: 1.25rem;
+        width: 100%;
+    
+    }
+    .form-dos{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0);
+        width: 13.125rem;
+        gap: 1.0rem;
+        padding-top: 20px;
+        border: #f4e7d4;
+        margin-left: 1.5625rem;
+    }
+    .section-footer{
+        display: flex;
+        align-self: flex-end;
+        margin-top: 17rem;
+        background-color: #000000;
+        height: 2.5rem;
+        width: 50rem
+    }
+    .boton-myh{
+        margin-left: 2.375rem;
+    }
+}
+
+@media (max-width: 425px){
+    .bodymyh{
+        height: auto;
+    }
+    .form-uno{
+        margin-left: 1.25rem;
+        width: 100%;
+    
+    }
+    .form-dos{
+    width: 33.125rem;
+    }
+    .form-uno{
+        margin-left: 9.875rem;
+    }
+    .boton-myh{
+        margin-left: 21rem;
+    }
+    .terminos-footer{
+        margin-right: 1.25rem;
+    }
+    .section-footer{
+        margin-top: 16.375rem;
+        background-color: #000000;
+        height: 4rem;
+        width: 50rem;
+        margin-top: 70.375rem;
+    }
+    .whats-app{
+        margin-bottom: .625rem;
+    }
+    .insta-gram{
+        margin-bottom: .625rem;
+    }
+    .face-book{
+        margin-bottom: .625rem;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 320px) and () {
+    .body-myh{
+        height: auto;
+        width: 0 auto;
+    }
+    .section-footer{
+        margin-top: 16.375rem;
+        background-color: #000000;
+        height: 4rem;
+        width: 50rem;
+        margin-top: 46.375rem;
+    }
+}
+
+@media (max-width: 320px){
+    .form-uno{
+        margin-left: 13.875rem;
+    }
+    .boton-myh{
+        margin-left: 25rem ;
+    }
+    .section-footer{
+        margin-top: 16.375rem;
+        background-color: #000000;
+        height: 4rem;
+        width: 50rem;
+        margin-top: 94.5rem;
+    }
+}
